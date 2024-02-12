@@ -1,0 +1,10 @@
+# Задание №5
+a = int(input())
+a= (a // 1000)
+b= (a % 1000 // 100)
+c= (a % 100 // 10)
+d= (a % 10)
+print(a)
+print(b)
+print(c)
+print(d)
